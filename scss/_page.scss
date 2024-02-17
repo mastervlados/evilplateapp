@@ -1,0 +1,68 @@
+.logo {
+    height: 144px;
+    background: $levelOne;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // justify-content: center;
+        gap: 1.5rem;
+        height: 144px;
+    }
+
+    &__image {
+        width: 55px;
+        height: 55px;
+        background-image: url('/img/app-icon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+    }
+
+    &__link {
+        color: $base;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}
+
+.listbox {
+
+    &__updateinfo {
+        margin-top: 2rem;
+        font-size: 0.75rem;
+        text-align: right;
+    }
+
+    &__updatedate {
+        color: $base;
+    }
+
+    &__header {
+        color: $base;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1.75rem;
+    }
+
+    &__subheader {
+        color: $base;
+        font-size: 1.75rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        margin: 0.75rem 0;
+    }
+}
+
+.footer {
+    margin-top: 3rem;
+
+    &__text {
+        opacity: 0.6;
+        margin: 0.5rem 0;
+    }
+}

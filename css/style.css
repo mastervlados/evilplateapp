@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #222;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  height: 144px;
+  background: #324458;
+}
+.logo__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  height: 144px;
+}
+.logo__image {
+  width: 55px;
+  height: 55px;
+  background-image: url("/img/app-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.logo__link {
+  color: #24323F;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.listbox__updateinfo {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  text-align: right;
+}
+.listbox__updatedate {
+  color: #24323F;
+}
+.listbox__header {
+  color: #24323F;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.75rem;
+}
+.listbox__subheader {
+  color: #24323F;
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.listbox__text {
+  margin: 0.75rem 0;
+}
+
+.footer {
+  margin-top: 3rem;
+}
+.footer__text {
+  opacity: 0.6;
+  margin: 0.5rem 0;
+}
